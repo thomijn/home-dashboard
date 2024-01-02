@@ -30,9 +30,9 @@ const Lights = () => {
     return (
         <>
             <ambientLight intensity={4} />
-            {/* <pointLight castShadow ref={light} intensity={50} position={[-1.5, 2.5, 1]} color={'red'} />
+            <pointLight castShadow ref={light} intensity={50} position={[-1.5, 2.5, 1]} color={'red'} />
             <pointLight castShadow ref={light2} intensity={20} position={[-2.5, 2.5, -5]} color={'yellow'} />
-            <pointLight castShadow ref={light3} intensity={20} position={[-2, 2.5, 4.5]} color={'yellow'} /> */}
+            <pointLight castShadow ref={light3} intensity={20} position={[-2, 2.5, 4.5]} color={'yellow'} />
         </>
     )
 }
